@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(143, 194, 190);
+}
+
+#navbar{
+    height: 80px;
+    width: auto;
+    background-color: rgb(6, 59, 66);
+    color:azure;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    font-weight: none;
+    border: 3px solid black;
+    font-family:Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+
+#content{
+    height:100px;
+    width:auto;
+    background-color:rgb(14, 89, 99);
+    color: rgb(252, 254, 254);
+    display: flex;
+    justify-content:center;
+    font-size: 25px;
+    padding: 10px;
+}
+
+
+h2{
+    font-size: 50px;
+}
+li{
+    list-style-type:none;
+    color: black;
+    height: 50px;
+    width: 200px;
+    background-color: rgb(60, 168, 161);
+    border-radius: 50%;
+}
+
+#section1{
+    height: 250px;
+    width: auto;
+    border-radius: 20px;
+    background-color: rgb(17, 95, 91);
+    color: rgb(100, 187, 175);
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+#section1:hover{
+    border: 4px solid yellowgreen;
+}
+
+li:hover{
+    background-color: rgb(17, 95, 91);
+    color: rgb(100, 187, 175);
+    font-size: 30px;
+    
+}
+
+#section2{
+    height: 300px;
+    width: auto;
+    border-radius: 20px;
+    background-color: rgb(17, 95, 91);
+    color: rgb(100, 187, 175);
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    margin-top: 20px;
+}
+#section2:hover{
+    border: 4px solid yellowgreen;
+}
+
+#section3{
+    height: 300px;
+    width: auto;
+    border-radius: 20px;
+    background-color: rgb(17, 95, 91);
+    color: rgb(100, 187, 175);
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    margin-top: 20px;
+}
+
+#section3:hover{
+    border: 4px solid yellowgreen;
+}
+
+#footer{
+    height: 50px;
+    width: auto;
+    background-color: rgb(6, 59, 66);;
+    color:azure;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom:40px;
+    padding-top: 5px;
+    margin-top: 20px;
+    font-style: italic;
+    border: 2px solid black;
+}
